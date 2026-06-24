@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8"> 
+	<title>Cartographer's Index</title>
+	<link rel="icon" type="image/png" href="../icons/compass.png">
+	<link rel="stylesheet"  href="./styles/styles.css">
+    </head>
+    <body>
+
+	<div class="sky"></div>
+	<div class="clouds"></div>
+	<div class="ocean"></div>
+
+	<div class="container">
+	    <header class="header">
+		<h2> Cartographer's Index </h2>
+		<a class="logout-link" href="/api/logout"> Logout </a>
+	    </header>
+
+	    <div id="msgbox">
+		<div class="ai-msg"> Which country would you like to learn about today? </div>
+	    </div>
+
+	    <div class="input-container">
+		<input type="text" id="userInput" placeholder="Ask me about...">
+		<button id="sendBtn"> Ask Tutor </button>
+	    </div>
+	</div>        
+
+	<script src="./js/index.js"></script>
+    </body>
+</html>
