@@ -12,7 +12,7 @@ Some features I've developed:
 - Error Handling: Invalid queries were taken care of. I also ensured that formatted HTML responses were to sent back to client-side perspective.
 
 ## API Interaction
-Initially this project utilized one of the many free models from Google's Gemini API, however, due to high spikes and demand, I decided it was best to move over to a much simplier API. The [**REST Countries API**](https://restcountries.com/) to populate some geographic data.
+Initially this project utilized one of the many free models from Google's Gemini API, however, due to high spikes and demand, I decided it was best to move over to a much simplier API. the [**REST Countries API**](https://restcountries.com/) was used to populate some geographic data.
 
 
 # Running the Server (for local use)
